@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Opex Academy Database</title>
+</head>
+<body>
+	<p id="demo"> </p>
+	<h1> OpexA tracks, courses and facilitators </h1>
+
+	<script>
+		var OPEXA = {
+				SFS: {
+					Track: "SFS",
+					subtracts: ["Front-end", "Back-end", "Mobile"],
+					Courses: ["HTML", "CSS", "JS", "React", "DOM"],
+					Facilitators: ["Mr Samson", "Mr Kayode", "Mr Brice", "Adejumo", "Aaron"],
+				},
+
+				SPM: {
+					Track: "SPM",
+					Courses: ["Agile methodology", "SCRUM"],
+					Facilitators: ["Mr Ushaseer Tembe", "Mr Ogunsina", "Mrs Nwamaka Ugba"],
+				},
+
+				DSA: {
+					Track: "DSA",
+					Courses: ["PowerBI Deskstop", "Python", "Machine learning", "AI"],
+					Facilitators: ["Mr Ojochegbe Alfa", "Mr Onyeka Ugba"],
+				},
+
+				CyberSecurity: {
+					Track: "CyberSecurity",
+					Courses: ["HTML", "CSS", "JS", "React", "DOM"],
+					Facilitators: ["Mr Timothy Oluwaseyi GREEN", "  Emmanuel Onuigbo ", "Ayomide Osuntoye"],
+				},
+
+				PM: {
+					Track: "PM",
+					Courses: ["HTML", "CSS", "JS", "React", "DOM"],
+					Facilitators: ["Mr Musibau Lasisi",],
+				},
+
+				DEVOPS: {
+					Track: "DEVOPS",
+					Courses: ["AWS", "Github", "Linus OS"],
+					Facilitators: ["Dotun Kehinde",],
+				},
+
+				
+		}
+
+	
+		document.getElementById("demo").innerHTML = 
+		OPEXA.SFS.Track + "<br>" + 
+		OPEXA.SFS.subtracts + "<br>" + 
+		OPEXA.SFS.Courses + "<br>" + 
+		OPEXA.SFS.Facilitators + "<br>" + "<br>" + 
+
+		OPEXA.SPM.Track + "<br>" +
+		OPEXA.SPM.Courses + "<br>" +
+		OPEXA.SPM.Facilitators + "<br>" 
+
+		
+
+		
+
+	</script>
+
+	 
+
+</body>
+</html>
